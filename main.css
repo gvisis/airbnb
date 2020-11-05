@@ -1,0 +1,23 @@
+body {
+    background-color: #FEFEFE;
+
+}
+.top-bar {
+    float: left;
+    display: inline-block;
+    background-color: blueviolet;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+}
+.logo {
+    display: inline-block;
+    float: left;
+    width: 20px;
+}
+.atop {
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+}
