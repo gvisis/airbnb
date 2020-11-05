@@ -1,6 +1,5 @@
 body {
     background-color: #FEFEFE;
-
 }
 .top-bar {
     float: left;
@@ -20,4 +19,76 @@ body {
     display: inline-block;
     float: right;
     text-decoration: none;
+    color: #484848;
+}
+#list {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #018BAF;
+}
+.text {
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin-left: 25%;
+    /* background-color: #767676; */
+}
+h1 {
+    display: inline-block;
+    width: 100%;
+    color: #484848;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+h2 {
+    display: inline-block;
+    width: 100%;
+    color: #484848;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+}
+h3 {
+    display: inline-block;
+    width: 100%;
+    color: #767676;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+ul {
+    /* display: inline-block; */
+    /* width: 100%; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #018BAF; */
+}
+/* size of the image doesnt change when zoomed */
+img {
+    display: inline-block;
+    width: 20%;
+    float: left;
 }
