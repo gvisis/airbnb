@@ -18,13 +18,17 @@ body {
     width: 30px;
     margin-left: 50px;
 }
-.bar {
+.searchbar {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
+    padding: 5px;
     margin-top: 4px;
     margin-left: 15px;
     border-style: none;
-    box-shadow: 1px 1px 4px 1px #616161b6;
+    border-radius: 2px;
+    width: 25%;
+    opacity: 0.7;
+    box-shadow: 1px 1px 1px 1px #8d8989;
 }
 .atop {
     display: inline-block;
