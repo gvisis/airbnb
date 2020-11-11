@@ -24,11 +24,10 @@ body {
     padding: 5px;
     margin-top: 4px;
     margin-left: 15px;
-    border-style: none;
+    border: 1px solid #8d8989;
     border-radius: 2px;
     width: 25%;
     opacity: 0.7;
-    box-shadow: 1px 1px 1px 1px #8d8989;
 }
 .atop {
     display: inline-block;
@@ -65,6 +64,7 @@ h1 {
     padding: 0;
     font-size: 100px;
     font-weight: 700;
+    line-height: 120px;
     font-family: 'Open Sans', sans-serif;
     
 }
@@ -97,15 +97,11 @@ p {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 100;
 }
-ul {
-    /* display: inline-block; */
-    /* width: 100%; */
-    list-style-type: none;
+nav {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 100;
-    /* color: #018BAF; */
 }
 /* size of the image doesnt change when zoomed */
 img {
