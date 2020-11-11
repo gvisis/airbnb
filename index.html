@@ -8,30 +8,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    
+    <!-- change div topbar to <header> ?  -->
     <div class="top-bar">
+        <!-- ar logo dydis nuotraukos geriau px ar %.  -->
         <a href="http://airbnb.com"><img class="logo" src="./airbnblogo.jpg" alt="airbnblogo"></a>
         <!-- <i class="fas fa-search"></i> -->
         <form action="https://www.google.com">
             <label for="search">
                 <input class="searchbar" type="search" placeholder="Search">
             </label>
+
             <!-- a href inside form? if it's out it jumps below -->
             <a class="atop" href="#">Become a host</a>
         </form>
     </div>
     <div class="text">
-    <h1>Oops!</h1>
-    <h2>We can't seem to find the page you're looking for.</h2>
-    <h3>Error code: 404</h3>
-    <p>Here are some helpful links instead:</p>
-    <ul>
-        <a id="list" href="#"><li>Home</li></a>
-        <a id="list" href="#"><li>Search</li></a>
-        <a id="list" href="#"><li>Help</li></a>
-        <a id="list" href="#"><li>Travelling on Airbnb</li></a>
-        <a id="list" href="#"><li>Hosting on Airbnb</li></a>
-        <a id="list" href="#"><li>Trust & Safety</li></a>
-    </ul>
+
+        <!-- tarpas virsuj tarp teksto. Nelygiai su logo virsaus pradzia -->
+        <h1>Oops!</h1>
+        <h2>We can't seem to find the page you're looking for.</h2>
+        <h3>Error code: 404</h3>
+    <!-- use <nav> or <ul> is fine? -->
+    <!-- ar ul isvis galima naudot stiliskai ar geriau tiesiog a href -->
+    <nav>
+        <p>Here are some helpful links instead:</p>
+        <a id="list" href="#">Home</a>
+        <a id="list" href="#">Search</a>
+        <a id="list" href="#">Help</a>
+        <a id="list" href="#">Travelling on Airbnb</a>
+        <a id="list" href="#">Hosting on Airbnb</a>
+        <a id="list" href="#">Trust & Safety</a>
+    </nav>
     </div>
     <img src="./airbnbgirl.jpg" alt="airgirl">
     
